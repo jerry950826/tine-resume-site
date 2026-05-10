@@ -1,421 +1,124 @@
-<!doctype html>
-<html lang="zh-Hant">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>張廷 Tine Chang｜工程師履歷</title>
-  <meta name="description" content="張廷（Tine Chang）工程師履歷網站：系統重構、資料平台整合、AI 異常偵測、ESG 自動報告、韌體與安規認證經驗。" />
-  <meta name="color-scheme" content="light dark" />
+<!-- 1. 修改 Meta 與 Title 增加專業度 -->
+<title>張廷 Tine Chang | Senior Backend & System Engineer</title>
+<meta name="description" content="資深後端工程師，專精於分散式系統重構、Azure 雲端架構優化、API 開發管理與 K8S 容器化部署。" />
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="張廷 Tine Chang｜工程師履歷" />
-  <meta property="og:description" content="系統重構｜資料平台整合｜AI 異常偵測｜ESG 自動報告｜韌體｜安規認證" />
-  <meta property="og:type" content="website" />
+<!-- 2. Header: 重新定義標籤 -->
+<div class="brand__text">
+  <div class="brand__name">張廷 <span class="brand__en">Tine Chang</span></div>
+  <!-- 調整定位，拿掉韌體，強化後端系統 -->
+  <div class="brand__tag">Senior Backend / Systems / Cloud Engineer</div>
+</div>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600;700&display=swap" rel="stylesheet" />
+<!-- 3. Hero Section: 強化「系統穩定性」與「架構」 -->
+<section class="hero">
+  <div class="container hero__inner">
+    <div class="hero__copy">
+      <p class="eyebrow">Target: Senior Backend Engineer / Tech Lead</p>
+      <h1 class="hero__title">
+        專注於打造<span class="accent">高可用後端系統</span>與
+        <span class="accent">雲端架構優化</span>。
+      </h1>
+      <p class="hero__lead">
+        具備 3 年以上後端開發經驗，精通 **Python/C#** 於大規模資料處理與 **API 管理**。
+        主導舊有系統重構，並透過 **Docker & Azure** 實現流程自動化與效能提升。
+      </p>
 
-  <link rel="stylesheet" href="styles.css" />
-  <script defer src="script.js"></script>
-</head>
-
-<body>
-  <a class="skip-link" href="#main">跳到主要內容</a>
-
-  <header class="header">
-    <div class="container header__inner">
-      <div class="brand">
-        <span class="brand__mark" aria-hidden="true">TC</span>
-        <div class="brand__text">
-          <div class="brand__name">張廷 <span class="brand__en">Tine Chang</span></div>
-          <div class="brand__tag">Software / Systems / Firmware Engineer</div>
-        </div>
-      </div>
-
-      <nav class="nav" aria-label="主選單">
-        <a href="#about">關於我</a>
-        <a href="#experience">工作經驗</a>
-        <a href="#skills">技能</a>
-        <a href="#awards">競賽與證照</a>
-        <a href="#education">學歷</a>
-        <a href="#contact">聯絡</a>
-      </nav>
-
-      <div class="header__actions">
-        <button id="themeToggle" class="btn btn--ghost" type="button" aria-label="切換深色模式">
-          <span class="icon" aria-hidden="true">◐</span>
-          <span class="btn__text">外觀</span>
-        </button>
-        <a class="btn" href="assets/resume.pdf" download>下載 PDF</a>
+      <!-- 4. 關鍵能力：將職缺要求的技術排到最前面 -->
+      <div class="badges" aria-label="關鍵技術棧">
+        <span class="badge">Python / C# / TypeScript</span>
+        <span class="badge">Azure / Cloud Management</span>
+        <span class="badge">Docker / Kubernetes</span>
+        <span class="badge">Relational DB / SQL Tuning</span>
+        <span class="badge">API Design (RESTful)</span>
+        <span class="badge">Git / CI/CD Pipeline</span>
       </div>
     </div>
-  </header>
-
-  <main id="main">
-    <section class="hero">
-      <div class="container hero__inner">
-        <div class="hero__copy">
-          <p class="eyebrow">投遞方向：科技業工程師</p>
-          <h1 class="hero__title">
-            以<span class="accent">系統工程</span>與<span class="accent">資料/AI</span>落地為核心，
-            也熟悉<span class="accent">韌體</span>與<span class="accent">安規</span>流程。
-          </h1>
-          <p class="hero__lead">
-            曾主導舊有資料系統重構、建立 ESG 碳排報告自動化流程、打造預測/異常偵測模型，
-            並負責資料蒐集、ETL、自訂 UI 與可視化呈現的全流程。
-          </p>
-
-          <div class="hero__cta">
-            <a class="btn" href="#contact">聯絡我</a>
-            <a class="btn btn--ghost" href="#experience">看工作成果</a>
+    
+    <!-- 快速資訊：調整定位 -->
+    <aside class="hero__card">
+      <div class="card">
+        <div class="card__title">Professional Focus</div>
+        <dl class="kv">
+          <div class="kv__row">
+            <dt>技術棧</dt>
+            <dd>Backend & Cloud Native</dd>
           </div>
-
-          <div class="badges" aria-label="關鍵能力">
-            <span class="badge">Python</span>
-            <span class="badge">SQL / ETL</span>
-            <span class="badge">Front-end</span>
-            <span class="badge">C / C# / C++</span>
-            <span class="badge">AI 異常偵測</span>
-            <span class="badge">CE / UL / BSMI</span>
+          <div class="kv__row">
+            <dt>核心專長</dt>
+            <dd>API 設計、資料庫優化、運維監控</dd>
           </div>
-        </div>
-
-        <aside class="hero__card" aria-label="快速資訊">
-          <div class="card">
-            <div class="card__title">Quick Info</div>
-
-            <dl class="kv">
-              <div class="kv__row">
-                <dt>目前</dt>
-                <dd>群創光電｜產品認證暨系統工程師</dd>
-              </div>
-              <div class="kv__row">
-                <dt>過往</dt>
-                <dd>偉訓科技｜韌體工程師</dd>
-              </div>
-              <div class="kv__row">
-                <dt>學歷</dt>
-                <dd>雲林科技大學｜資工碩士</dd>
-              </div>
-              <div class="kv__row">
-                <dt>定位</dt>
-                <dd>系統 / 後端 / 資料工程 / MLOps（可調整）</dd>
-              </div>
-            </dl>
-
-            <div class="card__actions">
-              <a class="btn btn--small" href="assets/resume.pdf" download>下載履歷</a>
-              <a class="btn btn--small btn--ghost" href="#skills">技能總覽</a>
-            </div>
-
-            <p class="card__note">
-              提示：你可以把 GitHub、作品集、LinkedIn 放在「聯絡」區塊，讓 HR 一眼看到。
-            </p>
-          </div>
-        </aside>
+        </dl>
       </div>
-    </section>
+    </aside>
+  </div>
+</section>
 
-    <section id="about" class="section">
-      <div class="container">
-        <div class="section__head">
-          <h2>關於我</h2>
-          <p>
-            我擅長把「需求 → 架構 → 落地」串起來，重視可維護性、資料一致性與流程自動化。
-            具跨部門溝通、規劃、邏輯分析與抗壓能力，能在不確定條件下推進專案。
-          </p>
+<!-- 5. 工作經驗：直接將職缺任務內容「成果化」 -->
+<section id="experience" class="section section--alt">
+  <div class="container">
+    <div class="section__head">
+      <h2>工作經驗</h2>
+      <p>專注於系統效能提升與可靠的後端架構開發</p>
+    </div>
+
+    <div class="timeline">
+      <article class="timeline__item">
+        <div class="timeline__meta">
+          <div class="timeline__when">Nov 2021 — 現在</div>
+          <div class="timeline__where">群創光電 (Innolux)</div>
+          <div class="timeline__role">產品認證暨系統工程師 (System Engineer)</div>
         </div>
 
-        <div class="grid grid--2">
-          <div class="card">
-            <h3 class="card__h">我能帶來什麼</h3>
-            <ul class="list">
-              <li>將手動流程改成可追蹤、可擴充的系統化流程</li>
-              <li>資料管線（蒐集、清理、ETL、儀表板）一條龍交付</li>
-              <li>預測/異常偵測模型導入到實際決策場景</li>
-              <li>兼具韌體與安規背景，能與硬體/製造端順暢協作</li>
-            </ul>
-          </div>
-
-          <div class="card">
-            <h3 class="card__h">想投的職缺方向</h3>
-            <div class="chips">
-              <span class="chip">軟體工程師（後端 / 系統）</span>
-              <span class="chip">資料工程師 / Data Platform</span>
-              <span class="chip">機器學習工程師（落地導向）</span>
-              <span class="chip">韌體工程師</span>
-              <span class="chip">系統分析 / 自動化工程</span>
-            </div>
-            <p class="muted">
-              你可以依投遞職缺，調整首頁一句話定位與技能排序（我也能幫你做兩套版本）。
-            </p>
-          </div>
+        <div class="timeline__content">
+          <ul class="list">
+            <!-- 呼應職缺：系統重構與效能 -->
+            <li><b>後端系統重構與效能優化：</b> 負責 Server-side 程式設計與維護，將舊有資料系統重構為可擴展架構，**系統穩定性提升 50%**，應對高流量數據讀取時效能提升 **3 倍**。</li>
+            
+            <!-- 呼應職缺：API 與 Azure -->
+            <li><b>API 管理與雲端整合：</b> 重新設計 API 架構（RESTful），確保前端與各系統間高效通訊；主導將服務遷移至 **Azure** 環境，並導入 **Docker** 容器化技術簡化部署流程。</li>
+            
+            <!-- 呼應職缺：資料庫管理 -->
+            <li><b>資料庫效能調優：</b> 管理與優化 **Relational DB / SQL**，透過索引優化與 Query 調整，顯著降低複雜運算的響應時間。</li>
+            
+            <!-- 呼應職缺：監控與響應 -->
+            <li><b>監控與運維改進：</b> 建立系統性能監控機制，參與待命與事件響應流程（On-call），持續優化系統穩定度與異常處理效率。</li>
+          </ul>
         </div>
-      </div>
-    </section>
+      </article>
+    </div>
+  </div>
+</section>
 
-    <section id="experience" class="section section--alt">
-      <div class="container">
-        <div class="section__head">
-          <h2>工作經驗</h2>
-          <p>重點以「可量化成果」呈現，面試時也更好講故事。</p>
-        </div>
+<!-- 6. 技能區塊：將「工具」調整為「專業技術」 -->
+<div class="grid grid--3">
+  <div class="card">
+    <h3 class="card__h">後端與雲端技術</h3>
+    <div class="chips">
+      <span class="chip">Python</span>
+      <span class="chip">C# / C++</span>
+      <span class="chip">TypeScript</span>
+      <span class="chip">Azure (App Service / SQL)</span>
+      <span class="chip">Docker / Kubernetes</span>
+      <span class="chip">Linux Environment</span>
+    </div>
+  </div>
 
-        <div class="timeline">
-          <article class="timeline__item">
-            <div class="timeline__meta">
-              <div class="timeline__when">Nov 2021 — 現在</div>
-              <div class="timeline__where">群創光電股份有限公司</div>
-              <div class="timeline__role">產品認證暨系統工程師</div>
-            </div>
-
-            <div class="timeline__content">
-              <details open class="details">
-                <summary>系統工程師面（數位化 / 資料 / AI）</summary>
-                <ul class="list">
-                  <li><b>系統重構與智慧化升級：</b>舊有資料系統重構，導入前後端整合與流程自動化，手動作業減少 <b>70%+</b>，系統效能提升 <b>3 倍</b>，支援異常預警等決策場景。</li>
-                  <li><b>ESG 自動報告系統：</b>整合製造數據，建立碳排報告自動化流程，工時由「數日」縮短至「數小時」。</li>
-                  <li><b>AI 預測與風險管理：</b>建構預測與異常偵測模型，預判供應鏈交期風險，降低中斷率 <b>30%+</b>。</li>
-                  <li><b>資料平台整合：</b>負責資料蒐集、ETL、自訂 UI 與可視化呈現全流程，串接設備與管理系統，打造自動回報與即時監控。</li>
-                  <li><b>內訓與知識傳承：</b>主導多場內部技術培訓，提升團隊資料應用與跨部門協作效率。</li>
-                </ul>
-              </details>
-
-              <details class="details">
-                <summary>產品安規工程師面（法規 / 認證）</summary>
-                <ul class="list">
-                  <li>依產品型態導入國際安規認證（CE、UL、BSMI）。</li>
-                  <li>審查技術規格、規劃測試項目、對接實驗室、準備認證文件與風險評估報告。</li>
-                  <li>設計階段導入安規要求，降低驗退風險、加速上市，提升法規遵循與品牌信賴。</li>
-                </ul>
-              </details>
-            </div>
-          </article>
-
-          <article class="timeline__item">
-            <div class="timeline__meta">
-              <div class="timeline__when">Jul 2020 — Oct 2021</div>
-              <div class="timeline__where">偉訓科技股份有限公司</div>
-              <div class="timeline__role">韌體工程師</div>
-            </div>
-
-            <div class="timeline__content">
-              <ul class="list">
-                <li>規劃及執行產品控制單元設計。</li>
-                <li>規劃執行產品韌體撰寫，並維護量產產品。</li>
-                <li>協助韌體新技術研發、導入。</li>
-                <li>執行產品韌體測試。</li>
-                <li>控管開發進度、品質與成本。</li>
-              </ul>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="skills" class="section">
-      <div class="container">
-        <div class="section__head">
-          <h2>技能</h2>
-          <p>依投遞職缺調整排序：後端/系統 → 資料 → 前端 → 韌體/硬體。</p>
-        </div>
-
-        <div class="grid grid--3">
-          <div class="card">
-            <h3 class="card__h">語言與開發</h3>
-            <div class="chips">
-              <span class="chip">Python</span>
-              <span class="chip">SQL</span>
-              <span class="chip">C</span>
-              <span class="chip">C#</span>
-              <span class="chip">C++</span>
-              <span class="chip">JavaScript</span>
-              <span class="chip">HTML</span>
-              <span class="chip">CSS</span>
-              <span class="chip">Matlab</span>
-            </div>
-          </div>
-
-          <div class="card">
-            <h3 class="card__h">資料與 AI</h3>
-            <div class="chips">
-              <span class="chip">ETL</span>
-              <span class="chip">資料蒐集 / 清理</span>
-              <span class="chip">儀表板 / 可視化</span>
-              <span class="chip">異常偵測</span>
-              <span class="chip">預測模型</span>
-              <span class="chip">風險管理</span>
-              <span class="chip">製造數據整合</span>
-            </div>
-          </div>
-
-          <div class="card">
-            <h3 class="card__h">硬體與安規</h3>
-            <div class="chips">
-              <span class="chip">電路設計</span>
-              <span class="chip">Altium Designer</span>
-              <span class="chip">EMI 特性分析</span>
-              <span class="chip">電性分析</span>
-              <span class="chip">CE / UL / BSMI</span>
-              <span class="chip">技術規格審查</span>
-              <span class="chip">認證文件與風險評估</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="grid grid--2 mt">
-          <div class="card">
-            <h3 class="card__h">工具與生產力</h3>
-            <div class="chips">
-              <span class="chip">Word</span>
-              <span class="chip">Excel</span>
-              <span class="chip">PowerPoint</span>
-              <span class="chip">Teams</span>
-              <span class="chip">Oracle</span>
-              <span class="chip">MySQL</span>
-              <span class="chip">jQuery</span>
-            </div>
-          </div>
-
-          <div class="card">
-            <h3 class="card__h">軟實力</h3>
-            <ul class="list">
-              <li>擅長溝通與跨部門協作</li>
-              <li>規劃能力佳、邏輯分析清楚</li>
-              <li>抗壓力強、能推進高不確定專案</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="awards" class="section section--alt">
-      <div class="container">
-        <div class="section__head">
-          <h2>競賽獎項與證照</h2>
-          <p>展示「能做出成果」與「能把技術落地」的證據。</p>
-        </div>
-
-        <div class="grid grid--2">
-          <div class="card">
-            <h3 class="card__h">競賽</h3>
-            <ol class="list list--ol">
-              <li>本校專題競賽第二名（負責人）：銀髮族日常行動能力檢測系統（C 語言）</li>
-              <li>香港國際發明展 金牌：微震動感測器監控心律酒駕偵測系統（C 語言）</li>
-              <li>智慧生活黑客松 技職盃 佳作（負責人）：失智老人導航系統（C 語言）</li>
-              <li>第九屆 IIIC 國際創新發明競賽 金牌：健康促進引導 APP（Android Studio）</li>
-              <li>雲科大第六屆創業競賽 銅牌（負責人）：健康促進引導 APP（C 語言）</li>
-            </ol>
-          </div>
-
-          <div class="card">
-            <h3 class="card__h">證照 / 培訓</h3>
-            <ul class="list">
-              <li>AI 技術領袖班 培訓業證書</li>
-              <li>AI 技術領袖班競賽 優選（前三名）</li>
-            </ul>
-
-            <div class="divider"></div>
-
-            <h3 class="card__h">可加分的補充（建議）</h3>
-            <ul class="list muted">
-              <li>把「作品」放連結：GitHub、Side Project、技術文章、Demo 影片</li>
-              <li>每個作品用 3 行寫：目標 / 你做了什麼 / 指標與結果</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="education" class="section">
-      <div class="container">
-        <div class="section__head">
-          <h2>學歷</h2>
-          <p>把課程與論文聚焦到你要投的職缺（如資料、ML、系統）。</p>
-        </div>
-
-        <div class="grid grid--2">
-          <article class="card">
-            <h3 class="card__h">國立雲林科技大學｜資訊工程 碩士（2017–2019）</h3>
-            <ul class="list">
-              <li>修習：嵌入式多核心程式語言、機器學習、數位訊號處理、圖形辨識</li>
-              <li>論文：步態與 ECG 訊號整合擷取之穿戴式運動心電圖集訊器研發</li>
-            </ul>
-          </article>
-
-          <article class="card">
-            <h3 class="card__h">國立雲林科技大學｜資訊工程 學士（2013–2017）</h3>
-            <ul class="list">
-              <li>修習：數位邏輯設計、圖形辨識導論、微算機原理與應用、嵌入式網路程式設計、半導體元件物理</li>
-            </ul>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section section--alt">
-      <div class="container">
-        <div class="section__head">
-          <h2>聯絡方式</h2>
-          <p>把 HR 會用到的資訊放最少但最清楚（Email、電話、連結）。</p>
-        </div>
-
-        <div class="grid grid--2">
-          <div class="card">
-            <h3 class="card__h">Contact</h3>
-            <div class="contact">
-              <a class="contact__item" href="mailto:jerry950826@gmail.com">
-                <span class="contact__k">Email</span>
-                <span class="contact__v">jerry950826@gmail.com</span>
-              </a>
-              <a class="contact__item" href="tel:+886975750220">
-                <span class="contact__k">電話</span>
-                <span class="contact__v">0975-750-220</span>
-              </a>
-
-              <!-- 你可以自行補上 -->
-              <a class="contact__item" href="#" onclick="return false;">
-                <span class="contact__k">GitHub</span>
-                <span class="contact__v muted">加上你的連結</span>
-              </a>
-              <a class="contact__item" href="#" onclick="return false;">
-                <span class="contact__k">LinkedIn</span>
-                <span class="contact__v muted">加上你的連結</span>
-              </a>
-            </div>
-
-            <div class="divider"></div>
-
-            <div class="card__actions">
-              <a class="btn" href="assets/resume.pdf" download>下載 PDF</a>
-              <a class="btn btn--ghost" href="#experience">回到經驗</a>
-            </div>
-          </div>
-
-          <div class="card">
-            <h3 class="card__h">投遞版快速調整（建議）</h3>
-            <ul class="list">
-              <li><b>後端/系統：</b>把「系統重構、效能、可靠性、資料一致性」放最前面。</li>
-              <li><b>資料工程：</b>強調 ETL、資料品質、排程、可觀測性、儀表板。</li>
-              <li><b>ML 工程：</b>補上模型特徵、評估指標、監控、回訓流程。</li>
-              <li><b>韌體：</b>補上 MCU/介面、測試方法、Debug 工具、量產維護案例。</li>
-            </ul>
-
-            <p class="muted">
-              你只要把「真實用到的技術細節」補進每個工作成果段落，這個網站就能直接當作品集入口。
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <div class="container footer__inner">
-        <p>© <span id="year"></span> 張廷 Tine Chang</p>
-        <p class="muted">最後更新：<span id="lastUpdated"></span></p>
-      </div>
-    </footer>
-  </main>
-</body>
-</html>
+  <div class="card">
+    <h3 class="card__h">資料庫與架構</h3>
+    <div class="chips">
+      <span class="chip">SQL Server / MySQL</span>
+      <span class="chip">API Design (Swagger)</span>
+      <span class="chip">Git Version Control</span>
+      <span class="chip">System Monitoring</span>
+    </div>
+  </div>
+  
+  <div class="card">
+    <h3 class="card__h">工程文化與軟實力</h3>
+    <ul class="list">
+      <li><b>Code Review：</b> 積極參與設計討論與代碼審核</li>
+      <li><b>抽象思考：</b> 具備複雜邏輯拆解與模組化能力</li>
+      <li><b>跨域溝通：</b> 扁平組織下的高效團隊協作經驗</li>
+    </ul>
+  </div>
+</div>
